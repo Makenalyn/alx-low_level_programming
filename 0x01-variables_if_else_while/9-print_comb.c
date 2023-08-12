@@ -9,8 +9,7 @@
 
 int main(void)
 {
-	char c;
-	char z = 44;
+	int c;
 
 	for (c = '0'; c <= '9'; c++)
 	{
@@ -19,7 +18,7 @@ int main(void)
 		{
 			continue;
 		}
-		putchar(z);
+		putchar(',');
 		putchar(' ');
 	}
 
