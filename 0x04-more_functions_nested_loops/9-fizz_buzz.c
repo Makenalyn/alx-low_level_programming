@@ -13,12 +13,12 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 			putchar(' ');
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 			putchar(' ');
 
 		}
