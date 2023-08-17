@@ -27,13 +27,16 @@ int main(void)
 			printf("Fizz");
 			putchar(' ');
 		}
+		else if ( k == 1)
+		{
+			printf("%d", k);
+		}
 		else
 		{
 			printf("%d", k);
 			putchar(' ');
 		}
-		putchar(' ');
-	}
 	putchar('\n');
+	}
 	return (0);
 }
