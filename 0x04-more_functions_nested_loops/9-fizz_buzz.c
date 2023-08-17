@@ -7,29 +7,29 @@
  */
 int main(void)
 {
-	int i;
+	int k;
 
-	for (i = 1; i < 100; i++)
+	for (k = 1; k <= 100; k++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if (k % 3 == 0 && k % 5 == 0)
 		{
 			printf("FizzBuzz");
 			putchar(' ');
 		}
-		else if (i % 5 == 0)
+		else if (k % 5 == 0)
 		{
 			printf("Buzz");
 			putchar(' ');
 
 		}
-		else if (i % 3 == 0)
+		else if (k % 3 == 0)
 		{
 			printf("Fizz");
 			putchar(' ');
 		}
 		else
 		{
-			printf("%d", i);
+			printf("%d", k);
 			putchar(' ');
 		}
 	}
