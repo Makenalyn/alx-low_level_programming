@@ -32,6 +32,7 @@ int main(void)
 			printf("%d", k);
 			putchar(' ');
 		}
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
