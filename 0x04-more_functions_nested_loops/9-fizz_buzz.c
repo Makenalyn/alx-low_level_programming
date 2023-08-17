@@ -13,30 +13,27 @@ int main(void)
 	{
 		if (k % 3 == 0 && k % 5 == 0)
 		{
-			printf("FizzBuzz");
-			putchar(' ');
+			printf(" FizzBuzz");
 		}
 		else if (k % 5 == 0)
 		{
-			printf("Buzz");
-			putchar(' ');
+			printf(" Buzz");
 
 		}
 		else if (k % 3 == 0)
 		{
-			printf("Fizz");
-			putchar(' ');
+			printf(" Fizz");
 		}
-		else if ( k == 1)
+		else if (k == 1)
 		{
 			printf("%d", k);
 		}
 		else
 		{
-			printf("%d", k);
-			putchar(' ');
+			printf(" %d", k);
 		}
-	putchar('\n');
 	}
+	putchar ('\n');
+
 	return (0);
 }
