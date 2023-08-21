@@ -9,10 +9,9 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	int leng = _strlen(s);
-	int strnull = leng - 1;
+	int len = _strlen(s) - 1;
 
-	while (strnull > 0)
+	while (len >= i)
 	{
 	swap(s + strnull, s + i);
 	{
