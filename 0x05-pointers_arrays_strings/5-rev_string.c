@@ -13,10 +13,10 @@ void rev_string(char *s)
 
 	while (len >= i)
 	{
-	swap(s + strnull, s + i);
+	swap(s + len, s + i);
 	{
 		i++;
-		strnull--;
+		len--;
 	}
 	}
 }
