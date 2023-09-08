@@ -10,19 +10,18 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *mem = 0;
+	void *mem;
 
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
 
-	mem = calloc(sizeof(nmemb), sizeof(size));
+	mem = malloc(sizeof(size) * nmemb);
 
 	if (mem == NULL)
 	{
 		return (NULL);
 	}
-
 	return (mem);
 }
