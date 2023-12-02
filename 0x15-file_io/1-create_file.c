@@ -10,7 +10,7 @@
 int create_file(const char *filename,
 		__attribute__((unused))char *text_content)
 {
-	size_t op;
+	int op;
 
 	op = open(filename, O_RDWR | O_CREAT);
 
